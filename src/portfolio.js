@@ -47,7 +47,7 @@ const skillsSection = {
     ),
     emoji("⚡ Cloud based machine learning pipelines"),
     emoji(
-      "⚡ Test-driven development and continuous integration"
+      "⚡ Public speaking & teaching"
     )
   ],
 
@@ -350,7 +350,7 @@ const podcastSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
+    "Discuss a collaboration or just say hi :)",
   number: "",
   email_address: "tilman@masur.com"
 };
