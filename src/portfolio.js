@@ -17,7 +17,7 @@ const greeting = {
     "A quantitative generalist."
   ),
   resumeLink:
-    "https://www.dropbox.com/s/aut4d4xxpsbrh84/2021-09-11_CV_Tilman_Masur.pdf?dl=0", // Set to empty to hide the button
+    "https://www.dropbox.com/s/wqevem1tqxnqr36/2021-11-11_CV_Tilman_Masur_Website.pdf?dl=0", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
