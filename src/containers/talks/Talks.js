@@ -31,7 +31,7 @@ export default function Talks() {
                 talkDetails={{
                   title: talk.title,
                   subtitle: talk.subtitle,
-                  slides_url: talk.slides_url,
+                  watch_url: talk.watch_url,
                   event_url: talk.event_url,
                   image: talk.image,
                   isDark

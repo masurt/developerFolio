@@ -331,18 +331,19 @@ const blogSection = {
 const talkSection = {
   title: "TALKS",
   subtitle: emoji(
-    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
+    "I enjoy giving talks and sharing my thoughts"
   ),
 
   talks: [
     {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
+      title: "Speech at MUNOL 2021 Openings",
+      subtitle:
+        "I talked about longtermism and existential threats at the Model United Nations of Lübeck.",
+      watch_url: "https://youtu.be/lsppHs9qqbs?t=901",
+      event_url: "https://munol.org/"
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Podcast Section

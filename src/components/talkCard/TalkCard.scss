@@ -34,7 +34,8 @@
   color: $textColorDark;
   margin: auto;
   text-align: left;
-  margin-top: 25px;
+  margin-top: 20px;
+  margin-right: 10px;
   padding: 0px 0px 40px 30px;
   font-size: 30px;
   line-height: normal;
@@ -44,7 +45,7 @@
   -webkit-box-orient: vertical;
 }
 .talk-card-subtitle {
-  margin-top: 35px;
+  margin-top: 30px;
   text-align: justify;
   padding-left: 30px;
   padding-right: 30px;
@@ -53,7 +54,7 @@
   line-height: 18px;
   overflow: hidden;
   display: -webkit-box;
-  -webkit-line-clamp: 2;
+  -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
 }
 .talk-button {
