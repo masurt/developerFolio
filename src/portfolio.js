@@ -330,9 +330,7 @@ const blogSection = {
 
 const talkSection = {
   title: "TALKS",
-  subtitle: emoji(
-    "I enjoy giving talks and sharing my thoughts"
-  ),
+  subtitle: emoji("I enjoy giving talks and sharing my thoughts"),
 
   talks: [
     {
@@ -363,7 +361,7 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle: "Discuss a collaboration or just say hi :)",
   number: "",
-  email_address: "tilman@masur.com"
+  email_address: "tilman.masur@zohomail.eu"
 };
 
 // Twitter Section
