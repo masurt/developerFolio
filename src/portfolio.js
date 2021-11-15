@@ -39,7 +39,7 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
+  title: "What I Do",
   subTitle: "Full-Stack Dev with a Quantitative Focus",
   skills: [
     emoji(
@@ -203,34 +203,47 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Projects",
+  subtitle: "",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/logo-color_with_planet.png"),
+      projectName: "ExoTOM",
+      projectDesc: "Master's thesis project: a target-observation-manager for automating exoplanet transit observations",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Visit Repository",
+          url: "https://gitlab.gwdg.de/monet/exotom"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      //image: require("./assets/images/logo-color_with_planet.png"),
+      projectName: "RechenschaftsBot - Accountability Bot",
+      projectDesc: "A Telegram bot to keep you accountable. Add him to a group, create new todos with a date and fine. Let the bot and your friends to the rest.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "Visit Repository",
+          url: "https://github.com/masurt/rechenschaftsbot"
         }
+        //  you can add extra buttons here.
       ]
-    }
+    },
+    {
+      //image: require("./assets/images/logo-color_with_planet.png"),
+      projectName: "WikiCrawler",
+      projectDesc: "A Wikipedia crawler that analyzes whether the articles on a certain topic are short or missing in certain languages.",
+      footerLink: [
+        {
+          name: "Visit Repository",
+          url: "https://github.com/masurt/wiki_crawler"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -296,23 +309,23 @@ const achievementSection = {
 const blogSection = {
   title: "Blogs",
   subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
+    "My posts on the EA forum.",
 
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      url: "https://forum.effectivealtruism.org/posts/yfJpkfzLeKAiyf3g4/pandemic-prevention-in-german-parties-federal-election",
+      title: "Pandemic prevention in German parties' federal election platforms",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+        "A short review of the general (not COVID-specific) pandemic prevention measures the main German parties proposed in their 2021 federal election platforms."
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
+      url: "https://forum.effectivealtruism.org/posts/ijQL2wiyGtvNJPZCf/deliberate-consumption-of-emotional-content-to-increase",
+      title: "Deliberate Consumption of Emotional Content to Increase Altruistic Motivation",
       description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+        "Should we actively seek out emotional content to increase our motivation to follow through with our altruistic commitments?"
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
