@@ -13,9 +13,7 @@ const illustration = {
 const greeting = {
   username: "Tilman Masur",
   title: "Hi, I'm Tilman",
-  subTitle: emoji(
-    "A quantitative generalist."
-  ),
+  subTitle: emoji("A quantitative generalist."),
   resumeLink:
     "https://www.dropbox.com/s/wqevem1tqxnqr36/2021-11-11_CV_Tilman_Masur_Website.pdf?dl=0", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -42,13 +40,9 @@ const skillsSection = {
   title: "What I Do",
   subTitle: "Full-Stack Dev with a Quantitative Focus",
   skills: [
-    emoji(
-      "⚡ Data analysis and visualization"
-    ),
+    emoji("⚡ Data analysis and visualization"),
     emoji("⚡ Cloud based machine learning pipelines"),
-    emoji(
-      "⚡ Public speaking & teaching"
-    )
+    emoji("⚡ Public speaking & teaching")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -106,7 +100,7 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "Google Cloud Platform",
       fontAwesomeClassname: "fas fa-cloud"
-    },
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -133,8 +127,8 @@ const educationInfo = {
       logo: require("./assets/images/goettingen_logo.svg"),
       subHeader: "Bachelor of Science Physics",
       duration: "Sep 2015 - Nov 2018",
-      desc: "Graduated with distinction focusing on complex systems and non-linear dynamics.",
-    },
+      desc: "Graduated with distinction focusing on complex systems and non-linear dynamics."
+    }
   ]
 };
 
@@ -209,7 +203,8 @@ const bigProjects = {
     {
       image: require("./assets/images/logo-color_with_planet.png"),
       projectName: "ExoTOM",
-      projectDesc: "Master's thesis project: a target-observation-manager for automating exoplanet transit observations",
+      projectDesc:
+        "Master's thesis project: a target-observation-manager for automating exoplanet transit observations",
       footerLink: [
         {
           name: "Visit Repository",
@@ -221,7 +216,8 @@ const bigProjects = {
     {
       //image: require("./assets/images/logo-color_with_planet.png"),
       projectName: "RechenschaftsBot - Accountability Bot",
-      projectDesc: "A Telegram bot to keep you accountable. Add him to a group, create new todos with a date and fine. Let the bot and your friends to the rest.",
+      projectDesc:
+        "A Telegram bot to keep you accountable. Add him to a group, create new todos with a date and fine. Let the bot and your friends to the rest.",
       footerLink: [
         {
           name: "Visit Repository",
@@ -233,7 +229,8 @@ const bigProjects = {
     {
       //image: require("./assets/images/logo-color_with_planet.png"),
       projectName: "WikiCrawler",
-      projectDesc: "A Wikipedia crawler that analyzes whether the articles on a certain topic are short or missing in certain languages.",
+      projectDesc:
+        "A Wikipedia crawler that analyzes whether the articles on a certain topic are short or missing in certain languages.",
       footerLink: [
         {
           name: "Visit Repository",
@@ -241,7 +238,7 @@ const bigProjects = {
         }
         //  you can add extra buttons here.
       ]
-    },
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -308,19 +305,20 @@ const achievementSection = {
 
 const blogSection = {
   title: "Blogs",
-  subtitle:
-    "My posts on the EA forum.",
+  subtitle: "My posts on the EA forum.",
 
   blogs: [
     {
       url: "https://forum.effectivealtruism.org/posts/yfJpkfzLeKAiyf3g4/pandemic-prevention-in-german-parties-federal-election",
-      title: "Pandemic prevention in German parties' federal election platforms",
+      title:
+        "Pandemic prevention in German parties' federal election platforms",
       description:
         "A short review of the general (not COVID-specific) pandemic prevention measures the main German parties proposed in their 2021 federal election platforms."
     },
     {
       url: "https://forum.effectivealtruism.org/posts/ijQL2wiyGtvNJPZCf/deliberate-consumption-of-emotional-content-to-increase",
-      title: "Deliberate Consumption of Emotional Content to Increase Altruistic Motivation",
+      title:
+        "Deliberate Consumption of Emotional Content to Increase Altruistic Motivation",
       description:
         "Should we actively seek out emotional content to increase our motivation to follow through with our altruistic commitments?"
     }
@@ -362,8 +360,7 @@ const podcastSection = {
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle:
-    "Discuss a collaboration or just say hi :)",
+  subtitle: "Discuss a collaboration or just say hi :)",
   number: "",
   email_address: "tilman@masur.com"
 };
