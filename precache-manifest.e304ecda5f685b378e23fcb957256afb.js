@@ -1,43 +1,43 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2603b9a61c89af39ada84f6cd31ded29",
+    "revision": "cad72ae5ba722878eded6fc2184206d1",
     "url": "/index.html"
   },
   {
-    "revision": "02a881ef5cc8f4d7e77e",
+    "revision": "56247d2b395c8772d72c",
     "url": "/static/css/3.d11e46ee.chunk.css"
   },
   {
-    "revision": "0e14afcbb51c01150936",
+    "revision": "4cbe201d0b6096f09fd8",
     "url": "/static/css/4.bf2a6147.chunk.css"
   },
   {
-    "revision": "2c291ef549ef4a58d6af",
-    "url": "/static/css/main.f9585049.chunk.css"
+    "revision": "fd7d0d652d44921eef9d",
+    "url": "/static/css/main.e988ed69.chunk.css"
   },
   {
-    "revision": "6b48d8bb57adc4f45497",
-    "url": "/static/js/2.90afb488.chunk.js"
+    "revision": "a7256380a68eb17f628f",
+    "url": "/static/js/2.24014919.chunk.js"
   },
   {
     "revision": "6e1d2efc12a1ac972ff1f942df7eb0bd",
-    "url": "/static/js/2.90afb488.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.24014919.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "02a881ef5cc8f4d7e77e",
-    "url": "/static/js/3.d4738361.chunk.js"
+    "revision": "56247d2b395c8772d72c",
+    "url": "/static/js/3.b6a4d920.chunk.js"
   },
   {
-    "revision": "0e14afcbb51c01150936",
-    "url": "/static/js/4.221f4606.chunk.js"
+    "revision": "4cbe201d0b6096f09fd8",
+    "url": "/static/js/4.651aed64.chunk.js"
   },
   {
-    "revision": "2c291ef549ef4a58d6af",
-    "url": "/static/js/main.070fafcd.chunk.js"
+    "revision": "fd7d0d652d44921eef9d",
+    "url": "/static/js/main.6a52ab99.chunk.js"
   },
   {
-    "revision": "72ccb9fd9a99aa95da3d",
-    "url": "/static/js/runtime-main.de936bf7.js"
+    "revision": "cd0263232081d1592113",
+    "url": "/static/js/runtime-main.b81f2cb3.js"
   },
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
@@ -76,12 +76,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/googleAssistantLogo.e79c6392.webp"
   },
   {
-    "revision": "52be31441c8cf8a8a16bd7a228d428bf",
-    "url": "/static/media/manOnTable.52be3144.svg"
+    "revision": "486ba5d0db31569e92abffa8538c275e",
+    "url": "/static/media/logo-color_with_planet.486ba5d0.png"
   },
   {
-    "revision": "829ad0a1deef4d7295adfecdf12df2be",
-    "url": "/static/media/nextuLogo.829ad0a1.webp"
+    "revision": "52be31441c8cf8a8a16bd7a228d428bf",
+    "url": "/static/media/manOnTable.52be3144.svg"
   },
   {
     "revision": "ee62cb58630f29a6e6201b49d4c03728",
@@ -90,10 +90,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "4b2938b9f5ea2f1ddbd45dccaff628bc",
     "url": "/static/media/quoraLogo.4b2938b9.png"
-  },
-  {
-    "revision": "25018d29d5ab115bc51c3e9a2d92f90f",
-    "url": "/static/media/saayaHealthLogo.25018d29.webp"
   },
   {
     "revision": "3440939881da8339d1597e8d77cdf850",
